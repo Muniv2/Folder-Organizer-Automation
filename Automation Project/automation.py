@@ -87,3 +87,5 @@ def main(sourcedirpath, backupdirpath):
     organize_files(sourcedirpath)
 
 # main(source_directory, backup_directory)
+
+#enter directory to clean path in source_directory place and another backup directory path in backup_directory place
