@@ -32,7 +32,7 @@ def move_empty_folders(sourcedirpath):
     os.makedirs(empty_dir_path, exist_ok=True) #make "empty folder" directory in backup directory to store all empty folders
     for dirpath, dirnames, filenames in os.walk(sourcedirpath):
         for dir in dirnames: #iterate over each sub-directory in this current directory
-            if dir=="Main backup" or dir=="empty folder" or "valo wallpaper": #skip over "empty folder" directory
+            if dir=="empty folder": #skip over "empty folder" directory
                 continue
             else:
                 try:
