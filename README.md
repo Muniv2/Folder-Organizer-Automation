@@ -3,7 +3,7 @@ You can freely use, modify, and distribute this code. However, you must include 
 
 # File Organizer Project
 
-This project was something I honestly thought I wouldn’t be able to complete at first. However, I decided to give it a shot, and through consistent effort, I managed to bring it together. I studied the **os** module in depth and also familiarized myself with some basic functions of the **shutil** and **time** modules, which were crucial for implementing the required functionality.
+This program helps organize a folder by doing three things: it moves files older than a year to a backup folder and renames any duplicates, it gathers all empty folders into one "empty folder," and it sorts files into new subfolders based on their extensions. 
 
 ## How It Works
 
